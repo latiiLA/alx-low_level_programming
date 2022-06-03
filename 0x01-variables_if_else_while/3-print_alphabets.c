@@ -17,7 +17,6 @@ int main(void)
 		putchar(charSmall);
 		charSmall++;
 	}
-	
 	while (charCapital <= 'Z')
 	{
 		putchar(charCapital);
