@@ -8,10 +8,10 @@
 int main(void)
 {
 	int num;
-	char hexa;
+	int hexa;
 	
 	num = 0;
-	hexa = 'a';
+	hexa = 35;
 	while (num < 10)
 	{
 		putchar(num + '0');
@@ -20,7 +20,7 @@ int main(void)
 	}
 	while (hexa < 'g')
 	{
-		putchar(hexa);
+		putchar(char(hexa));
 		hexa++;
 	}
 	putchar('\n');
