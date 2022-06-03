@@ -20,7 +20,7 @@ int main(void)
 	}
 	while (hexa < 'g')
 	{
-		putchar(char(hexa));
+		putchar(char(hexa)) + '0';
 		hexa++;
 	}
 	putchar('\n');
