@@ -18,11 +18,6 @@ int main(void)
 		num++;
 		putchar(',');
 	}
-	while (hexa < 70)
-	{
-		putchar((char)hexa + '0');
-		hexa++;
-	}
 	putchar('\n');
 	return (0);
 }
