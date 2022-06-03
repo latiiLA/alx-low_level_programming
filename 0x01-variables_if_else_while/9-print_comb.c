@@ -11,16 +11,16 @@ int main(void)
 	int hexa;
 	
 	num = 0;
-	hexa = 35;
+	hexa = 65;
 	while (num < 10)
 	{
 		putchar(num + '0');
 		num++;
 		putchar(',');
 	}
-	while (hexa < 'g')
+	while (hexa < 70)
 	{
-		putchar(char(hexa)) + '0';
+		putchar(char(hexa) + '0');
 		hexa++;
 	}
 	putchar('\n');
