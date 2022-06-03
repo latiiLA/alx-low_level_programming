@@ -23,6 +23,6 @@ int main(void)
 		putchar(charCapital);
 		charCapital++;
 	}
-	return (0);
 	putchar('\n');
+	return (0);
 }
