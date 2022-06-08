@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet -this function lower case alphabets
  *
  * Return: Always 0.
  */
@@ -13,7 +13,9 @@ void print_alphabet(void)
 	n = 1;
 
 	while (n < 26)
+	{
 		_putchar(n);
+		n++;
+	}
 	_putchar('\n');
-	
 }
