@@ -6,15 +6,21 @@
  *
  * @num: parameter
  *
+ * Description: print  the last digit
+ *
  * Return: Always 0.
  */
 int print_last_digit(int num)
 {
 	int result;
 
+	num = n % 10;
+
 	if (num < 0)
+	{
 		num *= -1;
-	result = num % 10;
+	}
+
 	_putchar(result + '0');
 	return (result);
 }
