@@ -3,7 +3,8 @@
 /**
  * _islower - checks for lowerchase character
  *
- * c - parameter for function _islower
+ * @c - parameter for _islower
+ * Description: prints all lowercase letters
  *
  * Return: Always 0 if not alphabet else return 1.
  */
