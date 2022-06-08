@@ -3,7 +3,7 @@
 /**
  * print_sign - prints sign of any number.
  *
- * @c: paramenter of the function print_sign
+ * @n: paramenter of the function print_sign
  *
  * Return: Always 0.
  */
