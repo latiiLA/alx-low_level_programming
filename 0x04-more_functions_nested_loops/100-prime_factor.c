@@ -12,12 +12,15 @@ int main(void)
 
 	num = 612852475143;
 
-	for (i = 2; i < num/2; i++)
+	while (num > 1)
 	{
-		if (num % i == 0)
+		while(num % i == 0)
+		{
 			max = i;
+			num = num / i;
+		}
+		i += 1;
 	}
-	printf("%d", max);
-	printf("\n");
+	printf("%d\n", max);
 	return (0);
 }
