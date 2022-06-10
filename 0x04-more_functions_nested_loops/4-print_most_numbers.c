@@ -2,10 +2,12 @@
 
 /**
  * print_most_numbers - check the code
+ * 
+ * @void: no return value
  *
  * Return: Always 0.
  */
-void print_most_numbers()
+void print_most_numbers(void)
 {
 	int num;
 
