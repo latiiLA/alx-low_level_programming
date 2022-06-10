@@ -9,12 +9,18 @@
 void print_line(int n)
 {
 	int num;
-
-	num = 0;
+	
+	num = n;
 	while (num <= n)
 	{
-		_putchar('-');
-		num++;
+		if (num <= 0)
+		{
+			_putchar('\n');
+			break;
+		}
+		else
+			_putchar('-');
+		num--;
 	}
 	_putchar('\n');
 }
