@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	int i, max;
-	long int num;
+	long int i, num;
+	long int max;
 
 	num = 612852475143;
 
@@ -21,6 +21,6 @@ int main(void)
 		}
 		i += 1;
 	}
-	printf("%d\n", max);
+	printf("%ld\n", max);
 	return (0);
 }
