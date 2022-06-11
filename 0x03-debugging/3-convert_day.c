@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * convert_day - converts day of month to day of year, without accounting
@@ -50,6 +50,7 @@ int convert_day(int month, int day)
 			break;
 	}
 	return (day);
+}
 
 
 
