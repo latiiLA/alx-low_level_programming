@@ -14,10 +14,12 @@
  * Return: ALways 0 (Success)
  */
 
-void positive_or_negative(int n)
+void positive_or_negative(int num)
 {
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	int n;
+
+	n = num;
+
 	/* your code goes there */
 	if (n > 0)
 		printf("%d is positive\n", n);
