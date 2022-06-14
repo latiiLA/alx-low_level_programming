@@ -9,15 +9,14 @@
  * Return: Always 0.
  */
 int _strlen(char *s)
-{
-	char arr = *s;
-
+{	
 	int count;
 
 	count = 0;
 
-	while (arr != '\0')
+	while ( *s != '\0')
 	{
+		s++;
 		count++;
 	}
 	return (count);
